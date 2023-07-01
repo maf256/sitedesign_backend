@@ -21,6 +21,12 @@ app.get("/config", (req, res) => {
   });
 });
 
+app.get("/test", (req, res) => {
+  res.send({
+    test: 'server working',
+  });
+});
+
 app.post("/create-payment-intent", async (req, res) => {
   try {
     const paymentIntent = await stripe.paymentIntents.create({
