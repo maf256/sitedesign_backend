@@ -1,0 +1,22 @@
+{
+  "name": "sitedesign-backedn",
+  "version": "1.0.0",
+  "description": "sitedesign-backedn",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{js,jsx}\""
+  },
+  "author": "sitedesign",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "stripe": "^8.191.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
